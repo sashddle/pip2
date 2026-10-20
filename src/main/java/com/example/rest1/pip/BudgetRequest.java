@@ -1,4 +1,7 @@
 package com.example.rest1.pip;
 
-public class BudgetRequest {
+import java.math.BigDecimal;
+import com.example.rest1.model.*;
+
+public record BudgetRequest(String name, BigDecimal monthlyExpenseLimit, Long ownerId) {
 }

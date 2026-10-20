@@ -3,9 +3,9 @@ package com.example.rest1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication public class BudgetApplication
+@SpringBootApplication public class Rest1Application
 {
     public static void main(String[] args) {
-        SpringApplication.run(BudgetApplication.class,args);
+        SpringApplication.run(Rest1Application.class,args);
     }
 }

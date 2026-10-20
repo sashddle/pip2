@@ -1,4 +1,7 @@
 package com.example.rest1.pip;
 
-public class Userreq {
+import java.math.BigDecimal;
+import com.example.rest1.model.*;
+
+public record Userreq(String name, String email) {
 }
